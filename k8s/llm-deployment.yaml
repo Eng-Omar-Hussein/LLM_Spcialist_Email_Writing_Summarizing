@@ -22,7 +22,7 @@ metadata:
   name: ollama-deployment
   namespace: llm-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: ollama
