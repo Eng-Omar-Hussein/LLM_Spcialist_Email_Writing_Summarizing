@@ -38,11 +38,11 @@ spec:
             - containerPort: 11434
           resources:
             requests:
-              memory: "2Gi"
-              cpu: "2"
+              memory: "512Mi"
+              cpu: "250m"
             limits:
               memory: "2Gi"
-              cpu: "4"
+              cpu: "2"
 
 ---
 apiVersion: apps/v1
