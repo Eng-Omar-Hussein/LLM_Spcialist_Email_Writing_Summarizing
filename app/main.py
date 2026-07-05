@@ -40,7 +40,7 @@ SYSTEM_PROMPT_WRITE = (
 )
 
 SYSTEM_PROMPT_SUMMARIZE = (
-    "You are an expert email summarization engine. Summarize the provided text. "
+    "You are an expert email summarization engine. Summarize the following email clearly in less number of words. Extract main points and action items. "
     "CRITICAL INSTRUCTION: Output ONLY the summary. Do not include any conversational filler, introductions like 'Here is the summary:', explanations, or acknowledgments."
 )
 
