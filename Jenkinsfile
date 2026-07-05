@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         APP_NAME           = "llm-model"
-        DOCKERHUB_REPO     = "omarhussein2111/model-api"
+        DOCKERHUB_REPO     = "omarhussein2111/llm-model"
         GITOPS_REPO        = "git@github.com:Eng-Omar-Hussein/LLM_Spcialist_Email_Writing_Summarizing.git"
         GITOPS_DIR         = "k8s"
         DEFECTDOJO_URL     = "http://13.221.19.95:8080"
